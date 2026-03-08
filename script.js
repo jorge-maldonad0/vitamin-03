@@ -2,8 +2,8 @@
  * Question 1
  */
 const question1 = () => {
-  const sidebarButton = __YOUR_CODE_HERE__;
-  const sidebar = __YOUR_CODE_HERE__;
+  const sidebarButton = document.getElementById("sidebar-button");
+  const sidebar = document.getElementById("sidebar");
 
   // Listen for a "click" event on the sidebar's button.
   //
